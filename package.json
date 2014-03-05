@@ -1,0 +1,17 @@
+{
+  "name": "othello-node",
+  "version": "0.0.0",
+  "description": "Othello built with node.js and angular",
+  "main": "server.js",
+  "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node spec --autotest --watch lib",
+    "start": "node server.js"
+  },
+  "author": "Albert Arvidsson",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "~3.4.0",
+    "socket.io": "~0.9.16",
+    "jasmine-node": "~1.13.1"
+  }
+}
